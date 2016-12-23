@@ -1,0 +1,25 @@
+{
+  "name": "bot44-loop",
+  "version": "1.0.0",
+  "description": "loop",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bot44/loop.git"
+  },
+  "author": "jKey Lu <jkeylu@gmail.com> (https://github.com/jkeylu)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bot44/loop/issues"
+  },
+  "homepage": "https://github.com/bot44/loop#readme",
+  "keywords": [
+    "bot",
+    "bot44",
+    "loop"
+  ]
+}
