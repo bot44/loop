@@ -10,15 +10,12 @@ $ npm install bot44-loop
 
 ```
 const loop = require('bot44-loop');
-
-function wait(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms || 0));
-}
+const sleep = require('bot44-sleep');
 
 function say(word) {
     return () => {
         console.log(word);
-        return wait(1000);
+        return sleep(1000);
     };
 }
 
