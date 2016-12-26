@@ -11,7 +11,11 @@ function loop(fn, times) {
             }
         }
 
-        return Promise.resolve(fn()).then(next);
+        try {
+            return Promise.resolve(fn()).then(next);
+        } catch (err) {
+            return Promise.reject(err);
+        }
     }
 
     return next();
