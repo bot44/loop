@@ -21,5 +21,8 @@
     "bot",
     "bot44",
     "loop"
-  ]
+  ],
+  "dependencies": {
+    "any-promise": "^1.3.0"
+  }
 }
